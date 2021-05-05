@@ -27,11 +27,19 @@ To Run Test Suite:
 
 To Start Server:
 
+run backend:
+
 `cd ./backend`
 `npm start`
-`cd ../ cd ./geo-server`
+
+run geo-server:
+
+`cd ./geo-server`
 `npm start`
-`cd ../ npm start`
+
+run frontend:
+
+`npm start`
 
 To Visit App:
 
