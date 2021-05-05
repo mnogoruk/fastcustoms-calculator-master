@@ -1,0 +1,122 @@
+#firstInput,
+#secondInput,
+#thirdInput {
+  float: left;
+  width: 30%;
+}
+
+#firstInput {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+#secondInput {
+  border-radius: 0;
+}
+
+#thirdInput {
+  border-radius: 0;
+}
+
+.flag {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(223, 223, 223);
+}
+
+.flag.mini {
+  width: 16px;
+  height: 10px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btn--map--order {
+  position: absolute;
+  z-index: 400;
+  left: 0;
+  right: 0;
+  margin: 0 39px;
+  bottom: 30px;
+}
+
+.btn--map--order .btn {
+  opacity: 1;
+}
+.btn--map--order:hover .btn {
+  opacity: 1;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.nocursor {
+  cursor: default;
+}
+
+.pr {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: green;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form-control {
+  height: 50px !important;
+}
+
+.inp.inp-start {
+  padding-left: 10px;
+}
+
+.inp_w .inp input {
+  max-width: 150px;
+}
+
+.inp_w .inp label {
+  position: absolute;
+  top: -20px;
+}
+
+@media (max-width: 1200px) {
+  .inp_w .inp label {
+    display: none;
+  }
+}
+
+.fc {
+  text-align: center;
+  padding: 15px 0px;
+}
+.fc.fc-1 {
+  border-radius: 50px 0 0 50px;
+}
+.fc.fc-2 {
+  border-radius: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+.fc.fc-3 {
+  border-radius: 0 50px 50px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+.fc.fc-set {
+  width: auto;
+  border: 0;
+  margin: 0 0;
+  position: relative;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0 12px;
+  background-color: #f3f8fb;
+  left: -18px;
+  height: 62px !important;
+}
